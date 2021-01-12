@@ -16,3 +16,31 @@ code {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.mt2 {
+  margin-right: 2rem;
+}
+
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo__text {
+  .completed & {
+    text-decoration: line-through;
+  }
+}
+
+.todo__label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.todo__icon {
+  z-index: 2;
+}
